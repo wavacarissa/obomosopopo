@@ -1,0 +1,159 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+/* Typhography */
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+
+/* Reusable */
+
+
+/* Header */
+
+#header {
+    width: 100%;
+    height: 100%;
+    background-color: #F6F6F6;
+    display: table;
+}
+
+#header .intro {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text-header {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 10px;
+    font-size: 60px;
+    font-weight: lighter;
+    color: #4BE2D3;
+}
+
+.text-subtitle {
+    font-size: 18px;
+}
+
+p.tagline {
+    font-size: 16px;
+    /*line-height: 1.7em;*/
+}
+
+.btn-custom {
+    background-color: transparent;
+    border: 3px solid #4BE2D3;
+    border-radius: 0px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s ease-in-out;
+    color: #4BE2D3 !important;
+}
+
+.btn-custom:hover {
+    background-color: #4BE2D3;
+    border: 3px solid #4BE2D3;
+    border-radius: 0px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white !important;
+    letter-spacing: 2px;
+    transition: all .3s ease-in-out;
+}
+
+
+/* Penjelasan */
+
+
+#penjelasan {
+    width: 100%;
+    height: 100%;
+    background-color: #F6F6F6;
+    display: table;
+}
+
+#penjelasan .intro {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Footer */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: transparent;
+}
+
+.copyright {
+    position: relative;
+    padding: 10px;
+}
+.copyright p {
+    margin-bottom: 0px;
+    line-height: 40px;
+}
+.social-media {
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    color: #E5E5E5;
+    padding: 10px;
+    float: right;
+}
+
+@media screen and (max-width: 480px) {
+    .social-media {
+        float: none;
+        justify-content: center;
+        /*padding-top: 0;*/
+    }
+}
+
+.social-media a {
+    color: white;
+    padding-right: 15px;
+}
+
+.social-media a:hover {
+    color: white;
+}
+
+.social-media .social-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    transition: border-radius .3s, background-color .5s;
+    background-color: transparent;
+    margin-right: 5px;
+}
+
+.social-media .social-wrapper:hover {
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.10);
+    transition: border-radius .3s, background-color .3s;
+}
+
+.social-media .social-wrapper:hover a {
+    color: white;
+}
+
+.social-media .social-wrapper a {
+    padding: 20%;
+}
