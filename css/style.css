@@ -31,8 +31,11 @@ body {
     width: 100%;
     padding: 10% 0;
     min-height: 300px;    
-    background: url(../img/bg.png);
-    background-size: cover;
+    background: url(../img/gsp2.png);
+    background-size: 50%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: #4BE2D3;
 }
 
 .text-header {
@@ -40,7 +43,7 @@ body {
     letter-spacing: 10px;
     font-size: 60px;
     font-weight: lighter;
-    color: #4BE2D3;
+    color: ivory;
 }
 
 .text-subtitle {
@@ -50,6 +53,16 @@ body {
 p.tagline {
     font-size: 16px;
     /*line-height: 1.7em;*/
+}
+/* logo nyala */
+.nyala {
+	-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,1));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	
+}.nyala:hover {
+	-webkit-filter: drop-shadow(9px 9px 9px rgba(0, 231, 255, 2));
 }
 
 .btn-custom {
