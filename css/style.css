@@ -417,7 +417,7 @@ img.nyala {
      -webkit-transform: translateX(400px);
     -webkit-animation: move 10s linear infinite;
 }
-.background {
+/*.background {
     background: url(../img/bg-gerak.png) repeat;
     position: relative;
     background-size: contain;
@@ -427,4 +427,40 @@ img.nyala {
     -webkit-animation: move-reverse 10s linear infinite;
     background-color: #2D2B6E;
     
+}*/
+
+.background {
+    background: transparent url(../img/bg-gerak.png) repeat-x 0 bottom;
+    background-size: contain;
+    height: 100%;
+    left: -100%;
+    position: relative;
+    width: 400%;
+}
+
+.background {
+    -webkit-animation:parallax 40s linear infinite;
+    -webkit-backface-visibility:hidden;
+    -webkit-perspective:1000;
+    -webkit-transform:translateX(0) translate3d(0,0,0);
+    animation:parallax 40s linear infinite;
+    backface-visibility:hidden;
+    perspective:1000;
+    transform:translate3d(0,0,0)
+}
+@keyframes parallax {
+    0% {
+        transform:translateX(0px)
+    }
+    100% {
+        transform:translateX(-1300px)
+    }
+}
+@-webkit-keyframes parallax {
+    0% {
+        -webkit-transform:translateX(0px) translate3d(0,0,0)
+    }
+    100% {
+        -webkit-transform:translateX(-1300px) translate3d(0,0,0)
+    }
 }
