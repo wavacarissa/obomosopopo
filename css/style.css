@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow-x: hidden; 
 }
 
 
@@ -40,7 +41,11 @@ body {
     background-size: 50%;
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-color: #4BE2D3;
+    background-color: #2D2B6E;
+}
+
+.content {
+   z-index: 1000 !important;
 }
 
 .text-header {
@@ -48,7 +53,8 @@ body {
     letter-spacing: 10px;
     font-size: 60px;
     font-weight: lighter;
-    color: ivory;
+    color: #4BE2D3;
+    z-index: 10;
 }
 
 .text-subtitle {
@@ -141,7 +147,6 @@ img.nyala {
 }
 
 .arrow-down {
-    margin-top: 30px;
     color: white;
     position: relative;
     text-align: center;
@@ -171,7 +176,7 @@ img.nyala {
 
 #penjelasan {
     height: auto;
-    padding: 11% 0;
+    padding: 9% 0;
     width: 100%;
     background-color: #2D2B6E;
 }
@@ -226,13 +231,13 @@ img.nyala {
 }
 
 .social-media a {
-    color: #00ADE8;
+    color: white;
     padding-right: 15px;
     text-decoration: none;
 }
 
 .social-media a:hover {
-    color: #00ADE8;
+    color: white;
 }
 
 .social-media .social-wrapper {
@@ -253,9 +258,33 @@ img.nyala {
 }
 
 .social-media .social-wrapper:hover a {
-    color: #00ADE8;
+    color: white;
 }
 
 .social-media .social-wrapper a {
     padding: 20%;
+}
+
+.cloud {
+  position: absolute;
+  background: url(../img/cloud.png) no-repeat;
+    -webkit-transform:translateX(-400px);
+  -webkit-animation: move 7s linear infinite ;
+  display:block-inline;
+  width: 200px;
+  height: 200px;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.cloud:nth-child(2) {
+  margin-top: 100px;
+  z-index: 2;
+}
+
+@-webkit-keyframes move {
+  0%{-webkit-transform:translateX(-340px);opacity:0;}
+  20%{opacity:1;}
+  90%{opacity:1;}
+  100%{-webkit-transform:translateX(1650px);opacity:0;}
 }
