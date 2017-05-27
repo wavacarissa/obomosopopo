@@ -24,8 +24,8 @@ body {
     color: #ffffff;
 }
 
-.orange-text {
-    color: orange;
+.penting-text {
+    color: #21B88D;
 }
 
 
@@ -216,6 +216,13 @@ img.nyala {
     padding: 10px;
     float: right;
 }
+.penting
+{
+    font-size: 20px;
+    background-color: lightcoral;
+    color: whitesmoke;
+    text-shadow: 2px 2px orange;
+}
 
 @media screen and (max-width: 480px) {
     .social-media {
@@ -226,13 +233,13 @@ img.nyala {
 }
 
 .social-media a {
-    color: #00ADE8;
+    color: ghostwhite;
     padding-right: 15px;
     text-decoration: none;
 }
 
 .social-media a:hover {
-    color: #00ADE8;
+    color: white;
 }
 
 .social-media .social-wrapper {
@@ -253,7 +260,7 @@ img.nyala {
 }
 
 .social-media .social-wrapper:hover a {
-    color: #00ADE8;
+    color: ghostwhite;
 }
 
 .social-media .social-wrapper a {
