@@ -439,16 +439,16 @@ img.nyala {
 }
 
 .background {
-    -webkit-animation:parallax 40s linear infinite;
+    -webkit-animation:background 40s linear infinite;
     -webkit-backface-visibility:hidden;
     -webkit-perspective:1000;
     -webkit-transform:translateX(0) translate3d(0,0,0);
-    animation:parallax 40s linear infinite;
+    animation:background 40s linear infinite;
     backface-visibility:hidden;
     perspective:1000;
     transform:translate3d(0,0,0)
 }
-@keyframes parallax {
+@keyframes background {
     0% {
         transform:translateX(0px)
     }
@@ -456,7 +456,7 @@ img.nyala {
         transform:translateX(-1300px)
     }
 }
-@-webkit-keyframes parallax {
+@-webkit-keyframes background {
     0% {
         -webkit-transform:translateX(0px) translate3d(0,0,0)
     }
