@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 
@@ -46,8 +46,8 @@ body {
 }
 
 .content {
-   z-index: 1000 !important;
-   position: relative;
+    z-index: 1000 !important;
+    position: relative;
 }
 
 .text-header {
@@ -223,13 +223,19 @@ img.nyala {
     padding: 10px;
     float: right;
 }
-.penting
-{
-    font-size: 20px;
-    color: whitesmoke;
-    text-shadow: 1px 1px orange;
-    background-color: lightcoral;
+
+#cp {
+   background-color: #2D2B6E;
+}
+
+.penting {
+    padding: 20px 0;
+    /* font-size: 20px;*/
+    color: whitesmoke !important;
+    /*  text-shadow: 1px 1px orange;*/
+    background-color: transparent;
     text-align: center;
+    border: 1px solid white;
 }
 
 @media screen and (max-width: 480px) {
@@ -276,30 +282,47 @@ img.nyala {
 }
 
 .clouds {
-  height: 300px;
-  position: absolute;
+    height: 300px;
+    position: absolute;
 }
+
 .cloud {
-  position: absolute;
-  background: url(../img/cloud.png) no-repeat;
-    -webkit-transform:translateX(-400px);
-  -webkit-animation: move 7s linear infinite ;
-  display:block-inline;
-  width: 200px;
-  height: 200px;
-  overflow-x: hidden;
+    position: absolute;
+    display: block-inline;
+    width: 200px;
+    height: 200px;
+    overflow-x: hidden;
 }
 
 .cloud:nth-child(2) {
-  -webkit-transform:translateX(-300px);
-  -webkit-animation: move 5s linear infinite ;
-  margin-top: 100px;
-  background-size: 30%;
+    -webkit-transform: translateX(-400px);
+    -webkit-animation: move 7s linear infinite;
+    background: url(../img/cloud.png) no-repeat;
+    margin-top: 100px;
+    background-size: 30%;
+}
+
+.cloud:nth-child(3) {
+    -webkit-transform: translateX(-300px);
+    -webkit-animation: move 5s linear infinite;
+    background: url(../img/cloud.png) no-repeat;
+    margin-top: 200px;
+    background-size: 10%;
 }
 
 @-webkit-keyframes move {
-  0%{-webkit-transform:translateX(-340px);opacity:0;}
-  20%{opacity:1;}
-  90%{opacity:1;}
-  100%{-webkit-transform:translateX(1650px);opacity:0;}
+    0% {
+        -webkit-transform: translateX(-340px);
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateX(1650px);
+        opacity: 0;
+    }
 }
