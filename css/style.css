@@ -278,7 +278,7 @@ img.nyala {
   position: absolute;
   background: url(../img/cloud.png) no-repeat;
     -webkit-transform:translateX(-400px);
-  -webkit-animation: move 7s linear infinite ;
+  -webkit-animation: move 20s linear infinite ;
   display:block-inline;
   width: 200px;
   height: 200px;
@@ -289,6 +289,8 @@ img.nyala {
 .cloud:nth-child(2) {
   margin-top: 100px;
   z-index: 2;
+      -webkit-transform:translateX(-100px);
+     -webkit-animation: move 10s linear infinite ;
 }
 
 @-webkit-keyframes move {
