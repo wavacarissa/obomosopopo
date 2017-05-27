@@ -47,6 +47,7 @@ body {
 
 .content {
    z-index: 1000 !important;
+   position: relative;
 }
 
 .text-header {
@@ -274,6 +275,10 @@ img.nyala {
     padding: 20%;
 }
 
+.clouds {
+  height: 300px;
+  position: absolute;
+}
 .cloud {
   position: absolute;
   background: url(../img/cloud.png) no-repeat;
@@ -283,12 +288,13 @@ img.nyala {
   width: 200px;
   height: 200px;
   overflow-x: hidden;
-  z-index: 1;
 }
 
 .cloud:nth-child(2) {
+  -webkit-transform:translateX(-300px);
+  -webkit-animation: move 5s linear infinite ;
   margin-top: 100px;
-  z-index: 2;
+  background-size: 30%;
 }
 
 @-webkit-keyframes move {
