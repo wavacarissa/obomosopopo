@@ -439,6 +439,7 @@ img.nyala {
 }
 
 .background {
+<<<<<<< HEAD
     -webkit-animation:background 40s linear infinite;
     -webkit-backface-visibility:hidden;
     -webkit-perspective:1000;
@@ -447,6 +448,16 @@ img.nyala {
     backface-visibility:hidden;
     perspective:1000;
     transform:translate3d(0,0,0)
+=======
+    -webkit-animation: background 40s linear infinite;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translateX(0) translate3d(0, 0, 0);
+    animation: background 40s linear infinite;
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0, 0, 0)
+>>>>>>> refs/remotes/origin/master
 }
 @keyframes background {
     0% {
