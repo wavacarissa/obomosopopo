@@ -48,6 +48,7 @@ body {
 
 .content {
     z-index: 1000 !important;
+    position: relative;
 }
 
 .text-header {
@@ -231,6 +232,7 @@ img.nyala {
     /*  text-shadow: 1px 1px orange;*/
     background-color: transparent;
     text-align: center;
+    border: 1px solid white;
 }
 
 @media screen and (max-width: 480px) {
@@ -276,16 +278,17 @@ img.nyala {
     padding: 20%;
 }
 
+.clouds {
+    height: 300px;
+    position: absolute;
+}
+
 .cloud {
     position: absolute;
-    background: url(../img/cloud.png) no-repeat;
-    -webkit-transform: translateX(-400px);
-    -webkit-animation: move 20s linear infinite;
     display: block-inline;
     width: 200px;
     height: 200px;
     overflow-x: hidden;
-    z-index: 1;
 }
 
 .cloud:nth-child(1) {
@@ -451,7 +454,7 @@ img.nyala {
     animation: background 40s linear infinite;
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
 }
 
 @keyframes background {
