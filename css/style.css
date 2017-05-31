@@ -47,6 +47,7 @@ body {
 
 .content {
     z-index: 1000 !important;
+    top: 100px;
     position: relative;
 }
 
@@ -288,7 +289,7 @@ img.nyala {
 }
 
 .cloud {
-<<<<<<< HEAD
+
   position: absolute;
   background: url(../img/aw.png) no-repeat;
     -webkit-transform:translateX(-400px);
@@ -298,13 +299,7 @@ img.nyala {
   height: 200px;
   overflow-x: hidden;
   z-index: 1;
-=======
-    position: absolute;
-    display: block-inline;
-    width: 200px;
-    height: 200px;
-    overflow-x: hidden;
->>>>>>> origin/master
+
 }
 
 .cloud:nth-child(1) {
@@ -316,29 +311,45 @@ img.nyala {
 }
 
 .cloud:nth-child(2) {
-    -webkit-transform: translateX(-400px);
+    -webkit-transform: translateX(-100px);
     -webkit-animation: move 70s linear infinite;
     background: url(../img/aw.png) no-repeat;
-    margin-top: 100px;
-    background-size: 30%;
+    margin-top: 0px;
+    background-size: 40%;
 }
 
 .cloud:nth-child(3) {
-    -webkit-transform: translateX(-300px);
-    -webkit-animation: move 60s linear infinite;
-    background: url(../img/cloud.png) no-repeat;
-    margin-top: 200px;
-    background-size: 10%;
+    -webkit-transform: translateX(-600px);
+    -webkit-animation: move-reverse 70s linear infinite;
+    background: url(../img/aw.png) no-repeat;
+    margin-top: 70px;
+    background-size: 70%;
 }
 
 .cloud:nth-child(4) {
     -webkit-transform: translateX(-300px);
     -webkit-animation: move-reverse 60s linear infinite;
-    background: url(../img/cloud.png) no-repeat;
+    background: url(../img/aw.png) no-repeat;
     margin-top: 150px;
-    background-size: 15%;
+    background-size: 55%;
 }
 
+.cloud:nth-child(5) {
+    -webkit-transform: translateX(-100px);
+    -webkit-animation: move 40s linear infinite;
+    background: url(../img/aw.png) no-repeat;
+    margin-top: 100px;
+    background-size: 30%;
+}
+
+
+.cloud:nth-child(6) {
+    -webkit-transform: translateX(-200px);
+    -webkit-animation: move 50s linear infinite;
+    background: url(../img/aw.png) no-repeat;
+    margin-top: 300px;
+    background-size: 70%;
+}
 @-webkit-keyframes move {
     0% {
         -webkit-transform: translateX(-340px);
