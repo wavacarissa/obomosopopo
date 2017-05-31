@@ -46,7 +46,8 @@ body {
 }
 
 .content {
-   z-index: 1000 !important;
+    z-index: 1000 !important;
+    position: relative;
 }
 
 .text-header {
@@ -234,8 +235,8 @@ img.nyala {
     color: whitesmoke !important;
     /*  text-shadow: 1px 1px orange;*/
     background-color: transparent;
-
     text-align: center;
+    border: 1px solid white;
 }
 
 @media screen and (max-width: 480px) {
@@ -281,7 +282,13 @@ img.nyala {
     padding: 20%;
 }
 
+.clouds {
+    height: 300px;
+    position: absolute;
+}
+
 .cloud {
+<<<<<<< HEAD
   position: absolute;
   background: url(../img/aw.png) no-repeat;
     -webkit-transform:translateX(-400px);
@@ -291,6 +298,13 @@ img.nyala {
   height: 200px;
   overflow-x: hidden;
   z-index: 1;
+=======
+    position: absolute;
+    display: block-inline;
+    width: 200px;
+    height: 200px;
+    overflow-x: hidden;
+>>>>>>> origin/master
 }
 
 .cloud:nth-child(1) {
@@ -359,6 +373,7 @@ img.nyala {
     }
 }
 
+
 /*#road {
     width: 100%;
     height: 60px;
@@ -381,8 +396,9 @@ img.nyala {
         -webkit-transform: translateX(-10px);
     }
 }*/
+
 #road {
-         width: 100%;
+    width: 100%;
     height: 60px;
     background-color: black;
     z-index: 1;
@@ -398,8 +414,12 @@ img.nyala {
 }
 
 @keyframes road {
-  from {left:0px;}
-  to {left:-35px;}
+    from {
+        left: 0px;
+    }
+    to {
+        left: -35px;
+    }
 }
 
 #vespa {
@@ -416,9 +436,11 @@ img.nyala {
     background-size: 50%;
     height: 100px;
     width: 100px;
-     -webkit-transform: translateX(400px);
+    -webkit-transform: translateX(400px);
     -webkit-animation: move 10s linear infinite;
 }
+
+
 /*.background {
     background: url(../img/bg-gerak.png) repeat;
     position: relative;
@@ -441,29 +463,30 @@ img.nyala {
 }
 
 .background {
-    -webkit-animation:background 40s linear infinite;
-    -webkit-backface-visibility:hidden;
-    -webkit-perspective:1000;
-    -webkit-transform:translateX(0) translate3d(0,0,0);
-    animation:background 40s linear infinite;
-    backface-visibility:hidden;
-    perspective:1000;
-    transform:translate3d(0,0,0)
+    -webkit-animation: background 40s linear infinite;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translateX(0) translate3d(0, 0, 0);
+    animation: background 40s linear infinite;
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0, 0, 0)
 }
+
 @keyframes background {
     0% {
-        transform:translateX(0px)
+        transform: translateX(0px)
     }
     100% {
-        transform:translateX(-1300px)
+        transform: translateX(-1300px)
     }
 }
+
 @-webkit-keyframes background {
     0% {
-        -webkit-transform:translateX(0px) translate3d(0,0,0)
+        -webkit-transform: translateX(0px) translate3d(0, 0, 0)
     }
     100% {
-        -webkit-transform:translateX(-1300px) translate3d(0,0,0)
+        -webkit-transform: translateX(-1300px) translate3d(0, 0, 0)
     }
-
 }
