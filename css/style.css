@@ -501,7 +501,7 @@ img.nyala {
 .background {
     background: transparent url(../img/lamp1.png) repeat-x 0 bottom;
     background-size: contain;
-    height: 60%;
+    height: 15%;
     left: -100%;
     position: relative;
     width: 400%;
