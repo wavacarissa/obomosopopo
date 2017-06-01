@@ -440,6 +440,14 @@ img.nyala {
     width: 100%;
     height: auto;
     z-index: 100;
+    margin-bottom: 10px;
+}
+#vespa2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+    margin-bottom: 40px;
 }
 
 #vespa .naikvespa {
@@ -453,6 +461,19 @@ img.nyala {
     -webkit-animation: move 20s linear infinite;
    
 }
+
+#vespa2 .naikvespa {
+    background: url(../img/sepeda.png) no-repeat;
+    position: absolute;
+    display: block-inline;
+    background-size: 50%;
+    height: 200px;
+    width: 200px;
+    -webkit-transform: translateX(400px);
+    -webkit-animation: move 50s linear infinite;
+   
+}
+
 
 
 /*.background {
