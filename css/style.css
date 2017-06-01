@@ -63,9 +63,13 @@ body {
 
 .judul {
     color: #FFCE07;
+<<<<<<< HEAD
     <<<<<<< HEAD text-shadow: 4px 3px 0px #7F4FA0, 9px 8px 0px rgba(0, 0, 0, 0.15);
     =======text-shadow: 4px 3px 0px #7F4FA0, 9px 8px 0px rgba(0, 0, 0, 0.25);
     >>>>>>> refs/remotes/origin/master
+=======
+    text-shadow: 4px 3px 0px #7F4FA0, 9px 8px 0px rgba(0, 0, 0, 0.25);
+>>>>>>> refs/remotes/origin/master
 }
 
 .text-subtitle {
@@ -482,8 +486,24 @@ img.nyala {
 }
 
 
+<<<<<<< HEAD
 }
 */ .background {
+=======
+/*.background {
+    background: url(../img/bg-gerak.png) repeat;
+    position: relative;
+    background-size: contain;
+    height: 100%;
+    width: 400%;
+    -webkit-transform: translateX(-400px);
+    -webkit-animation: move-reverse 10s linear infinite;
+    background-color: #2D2B6E;
+    
+}*/
+
+.background {
+>>>>>>> refs/remotes/origin/master
     background: transparent url(../img/lamp1.png) repeat-x 0 bottom;
     background-size: contain;
     height: 60%;
@@ -526,12 +546,22 @@ img.nyala {
         -webkit-transform: translateX(-1300px) translate3d(0, 0, 0)
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/master
 .container-sun {
     text-align: center;
     z-index: -1000;
 }
 
+<<<<<<< HEAD
 /* the svg element */
+=======
+
+/* the svg element */
+
+>>>>>>> refs/remotes/origin/master
 .svg-sun {
     width: 300px;
     height: 300px;
@@ -548,20 +578,35 @@ img.nyala {
     animation: spin 25s linear infinite;
 }
 
+<<<<<<< HEAD
 /* the circle element in the svg itself */
+=======
+
+/* the circle element in the svg itself */
+
+>>>>>>> refs/remotes/origin/master
 #sun {
     stroke-width: 20;
     stroke-dasharray: 1;
     stroke-dashoffset: 10%;
     fill: #F1B561;
     stroke: #F1B561;
+<<<<<<< HEAD
+=======
+    /* oren tua : #E48B25 */
+>>>>>>> refs/remotes/origin/master
 }
 
 /* start spin animation */
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/master
 @-webkit-keyframes spin {
     100% {
         -webkit-transform: rotate(360deg);
     }
+<<<<<<< HEAD
 }
 @-moz-keyframes spin {
     100% {
@@ -651,3 +696,79 @@ img.nyala {
             left: 100%;
         }
     }
+=======
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spin {
+    100% {
+        -o-transform: rotate(360deg);
+    }
+}
+
+@-ms-keyframes spin {
+    100% {
+        -ms-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.door-left,
+.door-right {
+    z-index: 10000;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0%;
+    animation-delay: 1s;
+    transition: all ease 2s;
+    -moz-transition: all ease-in-out 2s;
+    -webkit-transition: all ease-in-out 2s;
+    -o-transition: all ease-in-out 2s;
+    -ms-transition: all ease-in-out 2s;
+}
+
+.door-left {
+    left: 0%;
+    background: url(../img/kiri.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+/*    animation: kiri 1.5s infinite;*/
+}
+
+.door-right {
+    left: 50%;
+    background: url(../img/kanan.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  /*  animation: kanan 1.5s infinite;*/
+}
+
+/*@keyframes kiri {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes kanan {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}*/
+>>>>>>> refs/remotes/origin/master
