@@ -619,7 +619,7 @@ img.nyala {
     left: 0%;
     background: url(../img/kiri.png);
     background-size: contain;
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
 /*    animation: kiri 1.5s infinite;*/
 }
 
@@ -627,7 +627,7 @@ img.nyala {
     left: 50%;
     background: url(../img/kanan.png);
     background-size: contain;
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
   /*  animation: kanan 1.5s infinite;*/
 }
 
