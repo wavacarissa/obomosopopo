@@ -66,6 +66,11 @@ body {
     text-shadow: 4px 3px 0px #7F4FA0, 9px 8px 0px rgba(0, 0, 0, 0.25);
 }
 
+.judul-p {
+    color: #FFCE07;
+    text-shadow: 2px 1px 0px #7F4FA0, 3px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
 .text-subtitle {
     font-size: 18px;
 }
@@ -496,7 +501,7 @@ img.nyala {
 .background {
     background: transparent url(../img/lamp1.png) repeat-x 0 bottom;
     background-size: contain;
-    height: 60%;
+    height: 15%;
     left: -100%;
     position: relative;
     width: 400%;
@@ -631,6 +636,15 @@ img.nyala {
   /*  animation: kanan 1.5s infinite;*/
 }
 
+p a:link 
+{
+    font-style: bold;
+    color: #2DC995;
+}
+a:visited
+{
+    color: #2DC995;
+}
 /*@keyframes kiri {
     0% {
         transform: translateX(0%);
