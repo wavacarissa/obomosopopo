@@ -31,7 +31,6 @@ body {
     text-shadow: 1px 1px #7F50A0;
 }
 
-
 /* Header */
 
 #header {
@@ -48,6 +47,7 @@ body {
 
 .content {
     z-index: 1000 !important;
+    top: -250px;
     position: relative;
 }
 
@@ -58,6 +58,11 @@ body {
     font-weight: lighter;
     color: #4BE2D3;
     z-index: 10;
+}
+
+.judul{
+    color: #FFCE07;
+    text-shadow: 4px 3px 0px #7F4FA0, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 .text-subtitle {
@@ -84,7 +89,7 @@ img.nyala {
 }
 
 .nyala:hover {
-    -webkit-filter: drop-shadow(20px 20px 20px rgba(0, 231, 255, 2));
+    -webkit-filter: drop-shadow(0px 0px 6px rgba(255,255,255,0.7));
 }
 
 .btn-custom {
@@ -95,6 +100,7 @@ img.nyala {
     line-height: 25px;
     font-family: 'Montserrat', sans-serif;
     transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
     color: #4BE2D3 !important;
 }
 
@@ -108,6 +114,7 @@ img.nyala {
     color: white !important;
     letter-spacing: 2px;
     transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 
@@ -284,45 +291,67 @@ img.nyala {
 }
 
 .cloud {
-    position: absolute;
-    display: block-inline;
-    width: 200px;
-    height: 200px;
-    overflow-x: hidden;
+
+  position: absolute;
+  background: url(../img/aw.png) no-repeat;
+    -webkit-transform:translateX(-400px);
+  -webkit-animation: move 20s linear infinite ;
+  display:block-inline;
+  width: 200px;
+  height: 200px;
+  overflow-x: hidden;
+  z-index: 1;
+
 }
 
 .cloud:nth-child(1) {
     -webkit-transform: translateX(400px);
     -webkit-animation: move-reverse 100s linear infinite;
-    background: url(../img/cloud.png) no-repeat;
+    background: url(../img/aw.png) no-repeat;
     margin-top: -100px;
-    background-size: 35%;
+    background-size: 60%;
 }
 
 .cloud:nth-child(2) {
-    -webkit-transform: translateX(-400px);
+    -webkit-transform: translateX(-100px);
     -webkit-animation: move 70s linear infinite;
-    background: url(../img/cloud.png) no-repeat;
-    margin-top: 100px;
-    background-size: 30%;
+    background: url(../img/aw.png) no-repeat;
+    margin-top: 0px;
+    background-size: 40%;
 }
 
 .cloud:nth-child(3) {
-    -webkit-transform: translateX(-300px);
-    -webkit-animation: move 60s linear infinite;
-    background: url(../img/cloud.png) no-repeat;
-    margin-top: 200px;
-    background-size: 10%;
+    -webkit-transform: translateX(-600px);
+    -webkit-animation: move-reverse 70s linear infinite;
+    background: url(../img/aw.png) no-repeat;
+    margin-top: 70px;
+    background-size: 70%;
 }
 
 .cloud:nth-child(4) {
     -webkit-transform: translateX(-300px);
     -webkit-animation: move-reverse 60s linear infinite;
-    background: url(../img/cloud.png) no-repeat;
+    background: url(../img/aw.png) no-repeat;
     margin-top: 150px;
-    background-size: 15%;
+    background-size: 55%;
 }
 
+.cloud:nth-child(5) {
+    -webkit-transform: translateX(-100px);
+    -webkit-animation: move 40s linear infinite;
+    background: url(../img/aw.png) no-repeat;
+    margin-top: 100px;
+    background-size: 30%;
+}
+
+
+.cloud:nth-child(6) {
+    -webkit-transform: translateX(-200px);
+    -webkit-animation: move 50s linear infinite;
+    background: url(../img/aw.png) no-repeat;
+    margin-top: 300px;
+    background-size: 70%;
+}
 @-webkit-keyframes move {
     0% {
         -webkit-transform: translateX(-340px);
@@ -405,18 +434,50 @@ img.nyala {
     width: 100%;
     height: auto;
     z-index: 100;
+    margin-bottom: 10px;
+}
+#vespa2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+    margin-bottom: 40px;
 }
 
 #vespa .naikvespa {
-    background: url(../img/vespa.png) no-repeat;
+    background: url(../img/sepeda.png) no-repeat;
     position: absolute;
     display: block-inline;
     background-size: 50%;
+<<<<<<< HEAD
     height: 100px;
     width: 100px;
      -webkit-transform: translateX(400px);
     -webkit-animation: move 10s linear infinite;
 }
+=======
+    height: 200px;
+    width: 200px;
+    -webkit-transform: translateX(400px);
+    -webkit-animation: move 20s linear infinite;
+   
+}
+
+#vespa2 .naikvespa {
+    background: url(../img/sepeda.png) no-repeat;
+    position: absolute;
+    display: block-inline;
+    background-size: 50%;
+    height: 200px;
+    width: 200px;
+    -webkit-transform: translateX(400px);
+    -webkit-animation: move 50s linear infinite;
+   
+}
+
+
+
+>>>>>>> refs/remotes/origin/master
 /*.background {
     background: url(../img/bg-gerak.png) repeat;
     position: relative;
@@ -430,9 +491,9 @@ img.nyala {
 }*/
 
 .background {
-    background: transparent url(../img/bg-gerak.png) repeat-x 0 bottom;
+    background: transparent url(../img/lamp1.png) repeat-x 0 bottom;
     background-size: contain;
-    height: 100%;
+    height: 60%;
     left: -100%;
     position: relative;
     width: 400%;
@@ -474,4 +535,66 @@ img.nyala {
     100% {
         -webkit-transform:translateX(-1300px) translate3d(0,0,0)
     }
+<<<<<<< HEAD
+=======
+}
+
+.container-sun{
+  text-align:center;
+    z-index: -1000;
+}
+/* the svg element */
+.svg-sun{
+  width:250px;
+ height: 250px;
+
+    
+
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: 50% 50%;
+  -o-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin:50% 50%;
+
+-webkit-animation: spin 25s linear infinite;
+-moz-animation: spin 25s linear infinite;
+-o-animation:spin 25s linear infinite;
+-ms-animation: spin 25s linear infinite;
+animation: spin 25s linear infinite;
+}
+/* the circle element in the svg itself */
+#sun{
+  stroke-width:20;
+  stroke-dasharray:1;
+  stroke-dashoffset:10%;
+fill: #F1B561; stroke:#F1B561;
+}
+
+
+/* start spin animation */
+@-webkit-keyframes spin{
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@-moz-keyframes spin{
+	100% {
+		-moz-transform: rotate(360deg);
+	}
+}
+@-o-keyframes spin{
+	100% {
+		-o-transform: rotate(360deg);
+	}
+}
+@-ms-keyframes spin{
+	100% {
+		-ms-transform: rotate(360deg);
+	}
+}
+@keyframes spin{
+	100% {
+		transform: rotate(360deg);
+	}
+>>>>>>> refs/remotes/origin/master
 }
