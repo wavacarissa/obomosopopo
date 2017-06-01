@@ -31,6 +31,7 @@ body {
     text-shadow: 1px 1px #7F50A0;
 }
 
+
 /* Header */
 
 #header {
@@ -60,9 +61,9 @@ body {
     z-index: 10;
 }
 
-.judul{
+.judul {
     color: #FFCE07;
-    text-shadow: 4px 3px 0px #7F4FA0, 9px 8px 0px rgba(0,0,0,0.15);
+    text-shadow: 4px 3px 0px #7F4FA0, 9px 8px 0px rgba(0, 0, 0, 0.15);
 }
 
 .text-subtitle {
@@ -89,7 +90,7 @@ img.nyala {
 }
 
 .nyala:hover {
-    -webkit-filter: drop-shadow(0px 0px 6px rgba(255,255,255,0.7));
+    -webkit-filter: drop-shadow(0px 0px 6px rgba(255, 255, 255, 0.7));
 }
 
 .btn-custom {
@@ -291,17 +292,15 @@ img.nyala {
 }
 
 .cloud {
-
-  position: absolute;
-  background: url(../img/aw.png) no-repeat;
-    -webkit-transform:translateX(-400px);
-  -webkit-animation: move 20s linear infinite ;
-  display:block-inline;
-  width: 200px;
-  height: 200px;
-  overflow-x: hidden;
-  z-index: 1;
-
+    position: absolute;
+    background: url(../img/aw.png) no-repeat;
+    -webkit-transform: translateX(-400px);
+    -webkit-animation: move 20s linear infinite;
+    display: block-inline;
+    width: 200px;
+    height: 200px;
+    overflow-x: hidden;
+    z-index: 1;
 }
 
 .cloud:nth-child(1) {
@@ -344,7 +343,6 @@ img.nyala {
     background-size: 30%;
 }
 
-
 .cloud:nth-child(6) {
     -webkit-transform: translateX(-200px);
     -webkit-animation: move 50s linear infinite;
@@ -352,6 +350,7 @@ img.nyala {
     margin-top: 300px;
     background-size: 70%;
 }
+
 @-webkit-keyframes move {
     0% {
         -webkit-transform: translateX(-340px);
@@ -386,6 +385,7 @@ img.nyala {
     }
 }
 
+
 /*#road {
     width: 100%;
     height: 60px;
@@ -408,8 +408,9 @@ img.nyala {
         -webkit-transform: translateX(-10px);
     }
 }*/
+
 #road {
-         width: 100%;
+    width: 100%;
     height: 60px;
     background-color: black;
     z-index: 1;
@@ -425,8 +426,12 @@ img.nyala {
 }
 
 @keyframes road {
-  from {left:0px;}
-  to {left:-35px;}
+    from {
+        left: 0px;
+    }
+    to {
+        left: -35px;
+    }
 }
 
 #vespa {
@@ -436,6 +441,7 @@ img.nyala {
     z-index: 100;
     margin-bottom: 10px;
 }
+
 #vespa2 {
     position: relative;
     width: 100%;
@@ -449,20 +455,18 @@ img.nyala {
     position: absolute;
     display: block-inline;
     background-size: 50%;
-<<<<<<< HEAD
-    height: 100px;
+    <<<<<<< HEAD height: 100px;
     width: 100px;
-     -webkit-transform: translateX(400px);
+    -webkit-transform: translateX(400px);
     -webkit-animation: move 10s linear infinite;
 }
-=======
-    height: 200px;
-    width: 200px;
-    -webkit-transform: translateX(400px);
-    -webkit-animation: move 20s linear infinite;
-   
-}
 
+=======height: 200px;
+width: 200px;
+-webkit-transform: translateX(400px);
+-webkit-animation: move 20s linear infinite;
+
+}
 #vespa2 .naikvespa {
     background: url(../img/sepeda.png) no-repeat;
     position: absolute;
@@ -472,11 +476,7 @@ img.nyala {
     width: 200px;
     -webkit-transform: translateX(400px);
     -webkit-animation: move 50s linear infinite;
-   
 }
-
-
-
 >>>>>>> refs/remotes/origin/master
 /*.background {
     background: url(../img/bg-gerak.png) repeat;
@@ -489,7 +489,6 @@ img.nyala {
     background-color: #2D2B6E;
     
 }*/
-
 .background {
     background: transparent url(../img/lamp1.png) repeat-x 0 bottom;
     background-size: contain;
@@ -498,103 +497,98 @@ img.nyala {
     position: relative;
     width: 400%;
 }
-
 .background {
-<<<<<<< HEAD
-    -webkit-animation:background 40s linear infinite;
-    -webkit-backface-visibility:hidden;
-    -webkit-perspective:1000;
-    -webkit-transform:translateX(0) translate3d(0,0,0);
-    animation:background 40s linear infinite;
-    backface-visibility:hidden;
-    perspective:1000;
-    transform:translate3d(0,0,0)
-=======
-    -webkit-animation: background 40s linear infinite;
+    <<<<<<< HEAD -webkit-animation: background 40s linear infinite;
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translateX(0) translate3d(0, 0, 0);
     animation: background 40s linear infinite;
     backface-visibility: hidden;
     perspective: 1000;
-    transform: translate3d(0, 0, 0)
->>>>>>> refs/remotes/origin/master
+    transform: translate3d(0, 0, 0)=======-webkit-animation: background 40s linear infinite;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translateX(0) translate3d(0, 0, 0);
+    animation: background 40s linear infinite;
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0, 0, 0) >>>>>>> refs/remotes/origin/master
 }
 @keyframes background {
     0% {
-        transform:translateX(0px)
+        transform: translateX(0px)
     }
+    
     100% {
-        transform:translateX(-1300px)
+        transform: translateX(-1300px)
     }
 }
 @-webkit-keyframes background {
     0% {
-        -webkit-transform:translateX(0px) translate3d(0,0,0)
+        -webkit-transform: translateX(0px) translate3d(0, 0, 0)
     }
+    
     100% {
-        -webkit-transform:translateX(-1300px) translate3d(0,0,0)
+        -webkit-transform: translateX(-1300px) translate3d(0, 0, 0)
     }
-<<<<<<< HEAD
-=======
+    
+    <<<<<<< HEAD=======
 }
-
-.container-sun{
-  text-align:center;
+.container-sun {
+    text-align: center;
     z-index: -1000;
 }
+
 /* the svg element */
-.svg-sun{
-  width:250px;
- height: 250px;
-
-    
-
-  -webkit-transform-origin: center center;
-  -moz-transform-origin: 50% 50%;
-  -o-transform-origin: center center;
-  -ms-transform-origin: center center;
-  transform-origin:50% 50%;
-
--webkit-animation: spin 25s linear infinite;
--moz-animation: spin 25s linear infinite;
--o-animation:spin 25s linear infinite;
--ms-animation: spin 25s linear infinite;
-animation: spin 25s linear infinite;
+.svg-sun {
+    width: 250px;
+    height: 250px;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: 50% 50%;
+    -o-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: 50% 50%;
+    -webkit-animation: spin 25s linear infinite;
+    -moz-animation: spin 25s linear infinite;
+    -o-animation: spin 25s linear infinite;
+    -ms-animation: spin 25s linear infinite;
+    animation: spin 25s linear infinite;
 }
+
 /* the circle element in the svg itself */
-#sun{
-  stroke-width:20;
-  stroke-dasharray:1;
-  stroke-dashoffset:10%;
-fill: #F1B561; stroke:#F1B561;
+#sun {
+    stroke-width: 20;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 10%;
+    fill: #F1B561;
+    stroke: #F1B561;
 }
-
 
 /* start spin animation */
-@-webkit-keyframes spin{
-	100% {
-		-webkit-transform: rotate(360deg);
-	}
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
 }
-@-moz-keyframes spin{
-	100% {
-		-moz-transform: rotate(360deg);
-	}
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
 }
-@-o-keyframes spin{
-	100% {
-		-o-transform: rotate(360deg);
-	}
+@-o-keyframes spin {
+    100% {
+        -o-transform: rotate(360deg);
+    }
 }
-@-ms-keyframes spin{
-	100% {
-		-ms-transform: rotate(360deg);
-	}
+@-ms-keyframes spin {
+    100% {
+        -ms-transform: rotate(360deg);
+    }
 }
-@keyframes spin{
-	100% {
-		transform: rotate(360deg);
-	}
->>>>>>> refs/remotes/origin/master
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+    
+    >>>>>>> refs/remotes/origin/master
 }
