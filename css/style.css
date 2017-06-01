@@ -47,7 +47,7 @@ body {
 
 .content {
     z-index: 1000 !important;
-    top: 100px;
+    top: -250px;
     position: relative;
 }
 
@@ -100,6 +100,7 @@ img.nyala {
     line-height: 25px;
     font-family: 'Montserrat', sans-serif;
     transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
     color: #4BE2D3 !important;
 }
 
@@ -113,6 +114,7 @@ img.nyala {
     color: white !important;
     letter-spacing: 2px;
     transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 
@@ -441,14 +443,15 @@ img.nyala {
 }
 
 #vespa .naikvespa {
-    background: url(../img/vespa.png) no-repeat;
+    background: url(../img/sepeda.png) no-repeat;
     position: absolute;
     display: block-inline;
     background-size: 50%;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     -webkit-transform: translateX(400px);
-    -webkit-animation: move 10s linear infinite;
+    -webkit-animation: move 20s linear infinite;
+   
 }
 
 
@@ -500,4 +503,63 @@ img.nyala {
     100% {
         -webkit-transform: translateX(-1300px) translate3d(0, 0, 0)
     }
+}
+
+.container-sun{
+  text-align:center;
+    z-index: -1000;
+}
+/* the svg element */
+.svg-sun{
+  width:250px;
+ height: 250px;
+
+    
+
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: 50% 50%;
+  -o-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin:50% 50%;
+
+-webkit-animation: spin 25s linear infinite;
+-moz-animation: spin 25s linear infinite;
+-o-animation:spin 25s linear infinite;
+-ms-animation: spin 25s linear infinite;
+animation: spin 25s linear infinite;
+}
+/* the circle element in the svg itself */
+#sun{
+  stroke-width:20;
+  stroke-dasharray:1;
+  stroke-dashoffset:10%;
+fill: #F1B561; stroke:#F1B561;
+}
+
+
+/* start spin animation */
+@-webkit-keyframes spin{
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@-moz-keyframes spin{
+	100% {
+		-moz-transform: rotate(360deg);
+	}
+}
+@-o-keyframes spin{
+	100% {
+		-o-transform: rotate(360deg);
+	}
+}
+@-ms-keyframes spin{
+	100% {
+		-ms-transform: rotate(360deg);
+	}
+}
+@keyframes spin{
+	100% {
+		transform: rotate(360deg);
+	}
 }
