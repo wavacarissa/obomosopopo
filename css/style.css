@@ -31,6 +31,7 @@ body {
     text-shadow: 1px 1px #7F50A0;
 }
 
+
 /* Header */
 
 #header {
@@ -60,9 +61,9 @@ body {
     z-index: 10;
 }
 
-.judul{
+.judul {
     color: #FFCE07;
-    text-shadow: 4px 3px 0px #7F4FA0, 9px 8px 0px rgba(0,0,0,0.25);
+    text-shadow: 4px 3px 0px #7F4FA0, 9px 8px 0px rgba(0, 0, 0, 0.25);
 }
 
 .text-subtitle {
@@ -89,7 +90,7 @@ img.nyala {
 }
 
 .nyala:hover {
-    -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,0.7));
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.7));
 }
 
 .btn-custom {
@@ -291,17 +292,15 @@ img.nyala {
 }
 
 .cloud {
-
-  position: absolute;
-  background: url(../img/aw.png) no-repeat;
-    -webkit-transform:translateX(-400px);
-  -webkit-animation: move 20s linear infinite ;
-  display:block-inline;
-  width: 200px;
-  height: 200px;
-  overflow-x: hidden;
-  z-index: 1;
-
+    position: absolute;
+    background: url(../img/aw.png) no-repeat;
+    -webkit-transform: translateX(-400px);
+    -webkit-animation: move 20s linear infinite;
+    display: block-inline;
+    width: 200px;
+    height: 200px;
+    overflow-x: hidden;
+    z-index: 1;
 }
 
 .cloud:nth-child(1) {
@@ -344,7 +343,6 @@ img.nyala {
     background-size: 30%;
 }
 
-
 .cloud:nth-child(6) {
     -webkit-transform: translateX(-200px);
     -webkit-animation: move 50s linear infinite;
@@ -360,6 +358,7 @@ img.nyala {
     margin-top: 270px;
     background-size: 100%;
 }
+
 @-webkit-keyframes move {
     0% {
         -webkit-transform: translateX(-340px);
@@ -450,6 +449,7 @@ img.nyala {
     z-index: 100;
     margin-bottom: 10px;
 }
+
 #vespa2 {
     position: relative;
     width: 100%;
@@ -467,7 +467,6 @@ img.nyala {
     width: 200px;
     -webkit-transform: translateX(400px);
     -webkit-animation: move 20s linear infinite;
-   
 }
 
 #vespa2 .naikvespa {
@@ -479,9 +478,7 @@ img.nyala {
     width: 200px;
     -webkit-transform: translateX(400px);
     -webkit-animation: move 50s linear infinite;
-   
 }
-
 
 
 /*.background {
@@ -534,99 +531,116 @@ img.nyala {
     }
 }
 
-.container-sun{
-  text-align:center;
+.container-sun {
+    text-align: center;
     z-index: -1000;
-   
 }
+
+
 /* the svg element */
-.svg-sun{
-  width:300px;
- height: 300px;
+
+.svg-sun {
+    width: 300px;
+    height: 300px;
     margin-top: -100px;
-
-    
-
-  -webkit-transform-origin: center center;
-  -moz-transform-origin: 50% 50%;
-  -o-transform-origin: center center;
-  -ms-transform-origin: center center;
-  transform-origin:50% 50%;
-
--webkit-animation: spin 25s linear infinite;
--moz-animation: spin 25s linear infinite;
--o-animation:spin 25s linear infinite;
--ms-animation: spin 25s linear infinite;
-animation: spin 25s linear infinite;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: 50% 50%;
+    -o-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: 50% 50%;
+    -webkit-animation: spin 25s linear infinite;
+    -moz-animation: spin 25s linear infinite;
+    -o-animation: spin 25s linear infinite;
+    -ms-animation: spin 25s linear infinite;
+    animation: spin 25s linear infinite;
 }
+
+
 /* the circle element in the svg itself */
-#sun{
-  stroke-width:20;
-  stroke-dasharray:1;
-  stroke-dashoffset:10%;
-fill: #F1B561; stroke:#F1B561; /* oren tua : #E48B25 */
+
+#sun {
+    stroke-width: 20;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 10%;
+    fill: #F1B561;
+    stroke: #F1B561;
+    /* oren tua : #E48B25 */
 }
 
 
 /* start spin animation */
-@-webkit-keyframes spin{
-	100% {
-		-webkit-transform: rotate(360deg);
-	}
-}
-@-moz-keyframes spin{
-	100% {
-		-moz-transform: rotate(360deg);
-	}
-}
-@-o-keyframes spin{
-	100% {
-		-o-transform: rotate(360deg);
-	}
-}
-@-ms-keyframes spin{
-	100% {
-		-ms-transform: rotate(360deg);
-	}
-}
-@keyframes spin{
-	100% {
-		transform: rotate(360deg);
-	}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
 }
 
-.door-left, .door-right {
-    z-index: 10000;
-	position: absolute;
-	height: 100%;
-	width: 50%;
-	top: 0%;
-    animation-delay: 0.2s;
-	transition: all ease 0.3s;
-	-moz-transition: all ease 0.3s;
-	-webkit-transition: all ease 0.3s;
-	-o-transition: all ease 0.3s;
-	-ms-transition: all ease 0.3;
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
 }
-.door-left {
-	left: 0%;
-	background-color: rgb(91,96,106);
-    animation: kiri 1.5s 1;
+
+@-o-keyframes spin {
+    100% {
+        -o-transform: rotate(360deg);
+    }
 }
+
+@-ms-keyframes spin {
+    100% {
+        -ms-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.door-left,
 .door-right {
-	left: 50%;
-	background-color: rgb(229,211,211);
-    animation: kanan 1.5s 1;
+    z-index: 10000;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0%;
+    animation-delay: 0.2s;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3;
 }
 
-@keyframes kiri{
-    100%{
-        left: -50%;
+.door-left {
+    left: 0%;
+    background-color: rgb(91, 96, 106);
+/*    animation: kiri 1.5s infinite;*/
+}
+
+.door-right {
+    left: 50%;
+    background-color: rgb(229, 211, 211);
+  /*  animation: kanan 1.5s infinite;*/
+}
+
+/*@keyframes kiri {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
     }
 }
 
-@keyframes kanan{
-	100%{
-        left: 100%;
+@keyframes kanan {
+    0% {
+        transform: translateX(0%);
     }
-}
+    100% {
+        transform: translateX(100%);
+    }
+}*/
