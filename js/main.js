@@ -1,12 +1,4 @@
 $(document).ready(function() {
-<<<<<<< HEAD
-    $('a').click(function () {
-        $('html, body').animate({
-            scrollTop: $('#penjelasan').offset().top
-        }, 800);
-        return false;
-    });
-=======
     // transisi onload
     $('.door-left').css({'transform': 'translateX(-100%)'});
     $('.door-right').css({'transform': 'translateX(100%)'});
@@ -45,6 +37,5 @@ $(document).ready(function() {
                 }
             }
         });
->>>>>>> refs/remotes/origin/master
 });
 
