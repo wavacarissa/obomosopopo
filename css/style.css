@@ -618,7 +618,7 @@ img.nyala {
 .door-left {
     left: 0%;
     background: url(../img/kiri.png);
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 /*    animation: kiri 1.5s infinite;*/
 }
@@ -626,7 +626,7 @@ img.nyala {
 .door-right {
     left: 50%;
     background: url(../img/kanan.png);
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
   /*  animation: kanan 1.5s infinite;*/
 }
