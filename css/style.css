@@ -4,7 +4,7 @@ body {
     padding: 0;
     height: 100%;
     /*overflow-x: hidden;*/
-    background-color: #2D2B6E;
+    background-color: #72CFED;
     position: relative;
 }
 
@@ -28,7 +28,7 @@ html {overflow-x: hidden;}
 }
 
 .white-text {
-    color: #ffffff;
+    color: #346AA1;
 }
 
 .penting-text {
@@ -40,6 +40,34 @@ html {overflow-x: hidden;}
 /* Header */
 
 #header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10% 0;
+    min-height: 300px;
+  /*  background: url(../img/gsp2.png);
+    background-size: 50%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: #72CFED;*/
+}
+.bg-1 {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10% 0;
+    min-height: 300px;
+    background: url(../img/gunung.png);
+    background-size: 75%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.bg-2 {
+    top: 0;
     width: 100%;
     height: 100%;
     padding: 10% 0;
@@ -48,12 +76,39 @@ html {overflow-x: hidden;}
     background-size: 50%;
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-color: #2D2B6E;
+    position: absolute;
+   
 }
-
+.bg-3 {
+    top: 0;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    padding: 10% 0;
+    min-height: 300px;
+    background: url(../img/gerbangkiri.png);
+    background-size: 15%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+   
+}
+.bg-4 {
+    top: 0;
+    right: 10%;
+    width: 100%;
+    height: 100%;
+    padding: 10% 0;
+    min-height: 300px;
+    background: url(../img/gerbangkanan.png);
+    background-size: 15%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+   
+}
 .content {
     z-index: 1000 !important;
-    top: -200px;
     position: relative;
 }
 
@@ -62,7 +117,7 @@ html {overflow-x: hidden;}
     letter-spacing: 10px;
     font-size: 60px;
     font-weight: lighter;
-    color: #4BE2D3;
+    color: #72CFED;
     z-index: 10;
 }
 
@@ -105,19 +160,19 @@ img.nyala {
 
 .btn-custom {
     background-color: transparent;
-    border: 3px solid #4BE2D3;
+    border: 3px solid #72CFED;
     border-radius: 0px;
     font-size: 15px;
     line-height: 25px;
     font-family: 'Montserrat', sans-serif;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
-    color: #4BE2D3 !important;
+    color: #72CFED !important;
 }
 
 .btn-custom:hover {
-    background-color: #4BE2D3;
-    border: 3px solid #4BE2D3;
+    background-color: #72CFED;
+    border: 3px solid #72CFED;
     border-radius: 0px;
     font-size: 15px;
     line-height: 25px;
@@ -199,7 +254,7 @@ img.nyala {
     height: auto;
     padding: 9% 0;
     width: 100%;
-    background-color: #2D2B6E;
+    background-color: #72CFED;
 }
 
 
@@ -211,7 +266,7 @@ img.nyala {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: auto;
-    background-color: #2D2B6E;
+    background-color: #72CFED;
 }
 
 .copyright {
@@ -499,7 +554,7 @@ img.nyala {
     width: 400%;
     -webkit-transform: translateX(-400px);
     -webkit-animation: move-reverse 10s linear infinite;
-    background-color: #2D2B6E;
+    background-color: #72CFED;
     
 }*/
 
@@ -648,11 +703,11 @@ img.nyala {
 a.link-penting:link 
 {
     font-style: bold;
-    color: #2DC995;
+    color: #1A3864;
 }
 a.link-penting:visited
 {
-    color: #2DC995;
+    color: #1A3864;
 }
 /*@keyframes kiri {
     0% {
