@@ -59,7 +59,7 @@ html {overflow-x: hidden;}
     padding: 10% 0;
     min-height: 300px;
     background: url(../img/gunung.png);
-    background-size: 50%;
+    background-size: 75%;
     background-position: center bottom;
     background-repeat: no-repeat;
     position: relative;
@@ -79,9 +79,36 @@ html {overflow-x: hidden;}
     position: absolute;
    
 }
+.bg-3 {
+    top: 0;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    padding: 10% 0;
+    min-height: 300px;
+    background: url(../img/gerbangkiri.png);
+    background-size: 15%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+   
+}
+.bg-4 {
+    top: 0;
+    right: 10%;
+    width: 100%;
+    height: 100%;
+    padding: 10% 0;
+    min-height: 300px;
+    background: url(../img/gerbangkanan.png);
+    background-size: 15%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+   
+}
 .content {
     z-index: 1000 !important;
-    top: 100px;
     position: relative;
 }
 
