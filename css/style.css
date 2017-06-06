@@ -8,9 +8,13 @@ body {
     position: relative;
 }
 
-body { overflow-x: hidden; }
+body {
+    overflow-x: hidden;
+}
 
-html {overflow-x: hidden;}
+html {
+    overflow-x: hidden;
+}
 
 
 /* Typhography */
@@ -33,7 +37,6 @@ html {overflow-x: hidden;}
 
 .penting-text {
     color: #052954;
-    
 }
 
 
@@ -46,12 +49,13 @@ html {overflow-x: hidden;}
     height: 100%;
     padding: 10% 0;
     min-height: 300px;
-  /*  background: url(../img/gsp2.png);
+    /*  background: url(../img/gsp2.png);
     background-size: 50%;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-color: #72CFED;*/
 }
+
 .bg-1 {
     top: -1%;
     width: 100%;
@@ -65,7 +69,6 @@ html {overflow-x: hidden;}
     position: relative;
 }
 
-
 .bg-2 {
     top: 0;
     width: 100%;
@@ -77,8 +80,8 @@ html {overflow-x: hidden;}
     background-position: center bottom;
     background-repeat: no-repeat;
     position: absolute;
-   
 }
+
 .bg-3 {
     top: 0;
     left: 10%;
@@ -91,8 +94,8 @@ html {overflow-x: hidden;}
     background-position: left bottom;
     background-repeat: no-repeat;
     position: absolute;
-   
 }
+
 .bg-4 {
     top: 0;
     right: 10%;
@@ -105,8 +108,8 @@ html {overflow-x: hidden;}
     background-position: right bottom;
     background-repeat: no-repeat;
     position: absolute;
-   
 }
+
 .content {
     z-index: 1000 !important;
     position: relative;
@@ -688,7 +691,7 @@ img.nyala {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     overflow-x: hidden;
-/*    animation: kiri 1.5s infinite;*/
+    /*    animation: kiri 1.5s infinite;*/
 }
 
 .door-right {
@@ -697,18 +700,19 @@ img.nyala {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     overflow-x: hidden;
-  /*  animation: kanan 1.5s infinite;*/
+    /*  animation: kanan 1.5s infinite;*/
 }
 
-a.link-penting:link 
-{
+a.link-penting:link {
     font-style: bold;
     color: #052954;
 }
-a.link-penting:visited
-{
+
+a.link-penting:visited {
     color: #1A3864;
 }
+
+
 /*@keyframes kiri {
     0% {
         transform: translateX(0%);
