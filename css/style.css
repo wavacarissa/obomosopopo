@@ -32,11 +32,11 @@ html {
 }
 
 .white-text {
-    color: #346AA1;
+    color: black;
 }
 
 .penting-text {
-    color: #052954;
+    color: black;
 }
 
 
@@ -57,13 +57,13 @@ html {
 }
 
 .bg-1 {
-    top: 0;
+    top: -0.5%;
     width: 100%;
     height: 100%;
     padding: 10% 0;
     min-height: 300px;
     background: url(../img/gunung.png);
-    background-size: 150%;
+    background-size: 100%;
     background-position: center bottom;
     background-repeat: no-repeat;
     position: relative;
@@ -705,11 +705,11 @@ img.nyala {
 
 a.link-penting:link {
     font-style: bold;
-    color: #052954;
+    color: black;
 }
 
 a.link-penting:visited {
-    color: #1A3864;
+    color: black;
 }
 
 
