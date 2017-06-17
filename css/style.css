@@ -759,7 +759,7 @@ a .video-link-icon:after {
     width: 66px;
     height: 66px;
     background: #444;
-    background: rgb(186, 31, 36,  0.25);
+    background: rgb(186, 31, 36, 0.25);
     z-index: -99;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -821,21 +821,21 @@ a:focus .video-link-icon {
     height: 100%;
 }
 
-.modal {
-  text-align: center;
-  padding: 0!important;
-}
-
-.modal:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -4px;
-}
-
-.modal-dialog {
-  display: inline-block;
-  text-align: left;
-  vertical-align: middle;
+@media screen and (min-width: 480px) {
+    .modal {
+        text-align: center;
+        padding: 0!important;
+    }
+    .modal:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -4px;
+    }
+    .modal-dialog {
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+    }
 }
