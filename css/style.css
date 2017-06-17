@@ -758,11 +758,7 @@ a .video-link-icon:after {
     width: 66px;
     height: 66px;
     background: #444;
-<<<<<<< HEAD
-    background: rgba(0, 0, 0, 0.1);
-=======
     background: rgb(186, 31, 36, 0.25);
->>>>>>> refs/remotes/origin/master
     z-index: -99;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
