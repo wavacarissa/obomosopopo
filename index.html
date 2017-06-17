@@ -18,6 +18,7 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -26,9 +27,53 @@
     <![endif]-->
     <title> PPSMB PALAPA UGM 2017 </title>
     <link rel="icon" sizes="192x192" href="img/Untitled-1.png">
+    <style>
+    .fa-play {
+        color: white;
+        -webkit-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+    
+    .fa-play:hover {
+        color: #FA183D;
+        -webkit-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+    
+    a:hover .video-link-icon .fa-play,
+    a:focus .video-link-icon .fa-play {
+        outline: 0;
+        color: #FA183D !important;
+        -webkit-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+    </style>
 </head>
 
 <body>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ERNb3cX1Ufo?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="sliding-door">
         <div class="door-left"></div>
         <div class="door-right"></div>
@@ -57,7 +102,13 @@
                     <div class="content">
                         <img class="nyala" src="img/Untitled-1.png" alt="">
                         <div class="text-header judul">COMING SOON</div>
-                        <a href="#penjelasan"><i class="fa fa-angle-down fa-3x arrow-down" aria-hidden="true"></i></a>
+                        <!-- <i class="fa fa-play-circle-o" aria-hidden="true"></i> -->
+                        <a data-toggle="modal" data-target="#myModal">
+                            <span class="video-link-icon">
+                                <i class="fa fa-play"></i>
+                            </span>
+                        </a>
+                        <!-- <a href="#penjelasan"><i class="fa fa-angle-down fa-3x arrow-down" aria-hidden="true"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -81,7 +132,7 @@
                         </li>
                         <li class="white-text">
                             <p class="white-text" align="justify">
-                               Demi menghindari penyalahgunaan data pribadi, maka mahasiswa tidak perlu memberikan data apapun (misal data diri, data kesehatan, nomor kontak, dsb) selain yang diisikan pada <a href="http://um.ugm.ac.id" class="link-penting">Sistem Ujian Masuk UGM (http://um.ugm.ac.id)</a> dan <a href="http://palawa.ugm.ac.id" class="link-penting">Portal Mahasiswa (http://palawa.ugm.ac.id)</a>
+                                Demi menghindari penyalahgunaan data pribadi, maka mahasiswa tidak perlu memberikan data apapun (misal data diri, data kesehatan, nomor kontak, dsb) selain yang diisikan pada <a href="http://um.ugm.ac.id" class="link-penting">Sistem Ujian Masuk UGM (http://um.ugm.ac.id)</a> dan <a href="http://palawa.ugm.ac.id" class="link-penting">Portal Mahasiswa (http://palawa.ugm.ac.id)</a>
                             </p>
                         </li>
                         <li class="white-text">
