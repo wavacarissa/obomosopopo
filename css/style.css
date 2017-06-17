@@ -32,11 +32,11 @@ html {
 }
 
 .white-text {
-    color: #346AA1;
+    color: black;
 }
 
 .penting-text {
-    color: #052954;
+    color: black;
 }
 
 
@@ -57,12 +57,13 @@ html {
 }
 
 .bg-1 {
-    top: 20%;
+    top: -0.5%;
     width: 100%;
     height: 100%;
+    padding: 10% 0;
     min-height: 300px;
     background: url(../img/gunung.png);
-    background-size: 140%;
+    background-size: 100%;
     background-position: center bottom;
     background-repeat: no-repeat;
     position: relative;
@@ -704,11 +705,11 @@ img.nyala {
 
 a.link-penting:link {
     font-style: bold;
-    color: #052954;
+    color: black;
 }
 
 a.link-penting:visited {
-    color: #1A3864;
+    color: black;
 }
 
 
@@ -729,3 +730,90 @@ a.link-penting:visited {
         transform: translateX(100%);
     }
 }*/
+
+a .video-link-icon {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background: #FA183D;
+    color: #fff;
+    line-height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+
+a .video-link-icon:after {
+    position: absolute;
+    content: "";
+    top: -6px;
+    left: -6px;
+    width: 66px;
+    height: 66px;
+    background: #444;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: -99;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: pulse-border 1500ms ease-out infinite;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+a:hover .video-link-icon,
+a:focus .video-link-icon {
+    outline: 0;
+    background: #fff;
+    color: #FA183D !important;
+}
+
+@-webkit-keyframes pulse-border {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes pulse-border {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
