@@ -50,6 +50,27 @@
         -o-transition: all .5s ease-in-out;
         transition: all .5s ease-in-out;
     }
+    
+    .arrow-center {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50px;
+        height: 50px;
+        z-index: 1000;
+    }
+    
+    .arrow-center span {
+        margin: 0 auto;
+    }
+    
+    .text-scroll {
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+        margin-top: 3px;
+    }
     </style>
 </head>
 
@@ -103,7 +124,12 @@
                                 <i class="fa fa-play"></i>
                             </span>
                         </a>
-                        <!-- <a href="#penjelasan"><i class="fa fa-angle-down fa-3x arrow-down" aria-hidden="true"></i></a> -->
+                    </div>
+                    <div class="arrow-center" style="margin-top: 100px;">
+                        <a href="#penjelasan">
+                            <i class="zmdi zmdi-long-arrow-down zmdi-hc-2x arrow-down" style="color: #e6e6e6;"></i>
+                            <span class="text-scroll"><strong style="color: #e6e6e6;">scroll</strong></span>
+                        </a>
                     </div>
                 </div>
             </div>
