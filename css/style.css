@@ -294,7 +294,8 @@ img.nyala {
 .social-media {
     position: relative;
     font-size: 15px;
-    display: webkit-box; /*safari*/
+    display: webkit-box;
+    /*safari*/
     display: flex;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
@@ -817,7 +818,6 @@ a:focus .video-link-icon {
         opacity: 0;
     }
 }
-
 
 .video-container {
     position: relative;
