@@ -765,6 +765,7 @@ a .video-link-icon {
     -webkit-transition: all .3s;
     -ms-transition: all .3s;
     transition: all .3s;
+    cursor: pointer;
 }
 
 a .video-link-icon:after {
