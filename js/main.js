@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // transisi onload
-    $('.door-left').css({'transform': 'translateX(-100%)'});
-    $('.door-right').css({'transform': 'translateX(100%)'});
+    $('.door-left').css({'transform': 'translateX(-100%)','-webkit-transform': 'translateX(-100%)'});
+    $('.door-right').css({'transform': 'translateX(100%)','-webkit-transform': 'translateX(100%)'});
 
     $('a[href*="#"]')
         // Remove links that don't actually link to anything
