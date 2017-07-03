@@ -1,19 +1,18 @@
 <!-- start footer -->
-<section id="footer-top" style="background-color: #073C64;" class="kc-elm kc-css-784752 kc_row">
+<section id="footer-theme" class="kc-elm kc-css-18924 kc_row">
     <div class="kc-row-container  kc-container">
         <div class="kc-wrap-columns">
-            <div class="kc-elm kc-css-928432 kc_col-sm-12 kc_column kc_col-sm-12">
+            <div class="kc-elm kc-css-138445 kc_col-sm-12 kc_column kc_col-sm-12">
                 <div class="kc-col-container">
-                    <div class="kc-elm kc-css-90801" style="height: 50px; clear: both; width:100%;"></div>
-                    <div class="kc-elm kc-css-902626 kc_row kc_row_inner">
-                        <div class="kc-elm kc-css-258437 kc_col-sm-4 kc_column_inner kc_col-sm-4">
+                    <div class="kc-elm kc-css-964995" style="height: 50px; clear: both; width:100%;"></div>
+                    <div class="kc-elm kc-css-898642 kc_row kc_row_inner">
+                        <div class="kc-elm kc-css-636197 kc_col-sm-4 kc_column_inner kc_col-sm-4">
                             <div class="kc_wrapper kc-col-inner-container">
-                                <div class="kc-elm kc-css-655434 kc_shortcode kc_single_image">
+                                <div class="kc-elm kc-css-90665 kc_shortcode kc_single_image">
                                     <img src="http://ppsmb.ugm.ac.id/pp5mb-z0oi7/wp-content/uploads/2017/06/ugm_logo.png" class="" alt=""> </div>
-                                <div class="kc-elm kc-css-875549" style="height: 20px; clear: both; width:100%;"></div>
-                                <div class="kc-elm kc-css-440674 kc_text_block">
-                                    <p>
-                                        Panitia Pusat PPSMB UGM 2017
+                                <div class="kc-elm kc-css-47833" style="height: 20px; clear: both; width:100%;"></div>
+                                <div class="kc-elm kc-css-620116 kc_text_block">
+                                    <p>Panitia Pusat PPSMB UGM 2017
                                         <br> Subdirektorat Pengembangan Karakter Mahasiswa
                                         <br> Direktorat Kemahasiswaan Universitas Gadjah Mada
                                         <br>
@@ -21,30 +20,31 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="kc-elm kc-css-807326 kc_col-sm-4 kc_column_inner kc_col-sm-4">
+                        <div class="kc-elm kc-css-512351 kc_col-sm-4 kc_column_inner kc_col-sm-4">
                             <div class="kc_wrapper kc-col-inner-container">
-                                <div class="kc-elm kc-css-519891 kc-title-wrap ">
+                                <div class="kc-elm kc-css-33795 kc-title-wrap ">
                                     <h4 class="kc_title">Korespondensi/Alamat</h4>
                                 </div>
-                                <div class="kc-elm kc-css-386692" style="height: 7px; clear: both; width:100%;"></div>
-                                <div class="kc-elm kc-css-144642 kc_text_block">
+                                <div class="kc-elm kc-css-789189" style="height: 7px; clear: both; width:100%;"></div>
+                                <div class="kc-elm kc-css-552397 kc_text_block">
                                     <p>Jl. Asem Kranji Blok K-8 Sekip, Bulaksumur, Sleman, Yogyakarta. 55281</p>
                                 </div>
-                                <div class="kc-elm kc-css-630445 kc-title-wrap ">
+                                <div class="kc-elm kc-css-445440 kc-title-wrap ">
                                     <h4 class="kc_title">Pusat Informasi</h4>
                                 </div>
-                                <div class="kc-elm kc-css-796734" style="height: 7px; clear: both; width:100%;"></div>
-                                <div class="kc-elm kc-css-698103 kc_text_block">
-                                    <p style="text-align: left;"><i class="fa fa-phone" style="margin-right: 5px;"></i> <strong>0813 8142 2016 </strong>(hanya menerima telepon)</p>
+                                <div class="kc-elm kc-css-310728" style="height: 7px; clear: both; width:100%;"></div>
+                                <div class="kc-elm kc-css-556636 kc_text_block">
+                                    <p class="white-text penting-text"><b><span class="white-text penting-text">HELP DESK PPSMB</span></b>&nbsp;: 0813-8142-2016 (hari kerja pukul 08.00 – 16.00 WIB).</p>
+                                    <p class="white-text penting-text"><b><span class="white-text penting-text">HELP DESK Registrasi, UKT, dsb</span></b>&nbsp;: 0857-0955-9730 (Hanya Whatsapp)</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="kc-elm kc-css-277032 kc_col-sm-4 kc_column_inner kc_col-sm-4">
+                        <div class="kc-elm kc-css-437771 kc_col-sm-4 kc_column_inner kc_col-sm-4">
                             <div class="kc_wrapper kc-col-inner-container">
-                                <div class="kc-elm kc-css-505683 kc-title-wrap ">
+                                <div class="kc-elm kc-css-357015 kc-title-wrap ">
                                     <h4 class="kc_title">Akun Resmi UGM</h4>
                                 </div>
-                                <div class="kc-elm kc-css-775184 kc-raw-code">
+                                <div class="kc-elm kc-css-971339 kc-raw-code">
                                     <div class="social-media" style="padding:0px; text-align:right;">
                                         <div class="social-wrapper">
                                             <a href="https://id-id.facebook.com/UGMYogyakarta/" class="fa fa-facebook" aria-hidden="true"></a>
@@ -71,7 +71,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="kc-elm kc-css-701890" style="height: 50px; clear: both; width:100%;"></div>
+                    <div class="kc-elm kc-css-691877" style="height: 50px; clear: both; width:100%;"></div>
                 </div>
             </div>
         </div>
