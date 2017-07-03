@@ -1,5 +1,5 @@
 <!-- start footer -->
-<section id="footer-theme" class="kc-elm kc-css-18924 kc_row">
+<section class="kc-elm kc-css-18924 kc_row">
     <div class="kc-row-container  kc-container">
         <div class="kc-wrap-columns">
             <div class="kc-elm kc-css-138445 kc_col-sm-12 kc_column kc_col-sm-12">
@@ -97,13 +97,13 @@
             <div class="row">
                 <?php if( get_theme_mod( 'copyright_en', true ) ) { ?>
                 <div class="col-md-6 text-left copy-wrapper" style="padding-bottom: 20px; padding-top: 20px;">
-                    <?php echo wp_kses_post(balanceTags( get_theme_mod( 'copyright_text', '© PPSMB PALAPA UGM 2017') )); ?>
+                   <p>copyright_text', '© PPSMB PALAPA UGM 2017</p>
                 </div>
                 <!-- end row -->
                 <?php } ?>
                 <?php if( get_theme_mod( 'footer_share', true ) ) { ?>
                 <div class="col-md-6 text-right" style="padding-bottom: 20px; padding-top: 20px;">
-                    <?php echo wp_kses_post(balanceTags( get_theme_mod( 'copyright_text', 'Designed By <a href="http://themeum.com/" target="_blank"> THEMEUM</a> Modified By Panitia PPSMB PALAPA') )); ?>
+                    <p>Designed By <a href="http://themeum.com/" target="_blank"> THEMEUM</a> Modified By Panitia PPSMB PALAPA</p>
                 </div>
                 <!-- end row -->
                 <?php } ?>
