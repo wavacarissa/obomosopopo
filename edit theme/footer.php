@@ -1,5 +1,5 @@
 <!-- start footer -->
-<section class="kc-elm kc-css-18924 kc_row">
+<section id="footer-top" class="kc-elm kc-css-18924 kc_row">
     <div class="kc-row-container  kc-container">
         <div class="kc-wrap-columns">
             <div class="kc-elm kc-css-138445 kc_col-sm-12 kc_column kc_col-sm-12">
@@ -23,26 +23,24 @@
                         <div class="kc-elm kc-css-512351 kc_col-sm-4 kc_column_inner kc_col-sm-4">
                             <div class="kc_wrapper kc-col-inner-container">
                                 <div class="kc-elm kc-css-33795 kc-title-wrap ">
-                                    <h4 class="kc_title">Korespondensi/Alamat</h4>
+                                    <h4 class="kc_title" style="margin-bottom: 5px;">Korespondensi/Alamat : </h4>
                                 </div>
-                                <div class="kc-elm kc-css-789189" style="height: 7px; clear: both; width:100%;"></div>
                                 <div class="kc-elm kc-css-552397 kc_text_block">
-                                    <p>Jl. Asem Kranji Blok K-8 Sekip, Bulaksumur, Sleman, Yogyakarta. 55281</p>
+                                    <p style="margin-bottom: 5px;">Jl. Asem Kranji Blok K-8 Sekip, Bulaksumur, Sleman, Yogyakarta. 55281</p>
                                 </div>
                                 <div class="kc-elm kc-css-445440 kc-title-wrap ">
-                                    <h4 class="kc_title">Pusat Informasi</h4>
+                                    <h4 class="kc_title" style="margin-bottom: 5px; margin-top: 5px;">Pusat Informasi : </h4>
                                 </div>
-                                <div class="kc-elm kc-css-310728" style="height: 7px; clear: both; width:100%;"></div>
                                 <div class="kc-elm kc-css-556636 kc_text_block">
-                                    <p class="white-text penting-text"><b><span class="white-text penting-text">HELP DESK PPSMB</span></b>&nbsp;: 0813-8142-2016 (hari kerja pukul 08.00 – 16.00 WIB).</p>
-                                    <p class="white-text penting-text"><b><span class="white-text penting-text">HELP DESK Registrasi, UKT, dsb</span></b>&nbsp;: 0857-0955-9730 (Hanya Whatsapp)</p>
+                                    <p class="white-text penting-text" style="margin-bottom: 5px"><span class="white-text penting-text">HELP DESK PPSMB</span> : 0813-8142-2016 (hari kerja pukul 08.00 – 16.00 WIB).</p>
+                                    <p class="white-text penting-text" style="margin-bottom: 5px"><span class="white-text penting-text">HELP DESK Registrasi, UKT, dsb</span> : 0857-0955-9730 (Hanya Whatsapp)</p>
                                 </div>
                             </div>
                         </div>
                         <div class="kc-elm kc-css-437771 kc_col-sm-4 kc_column_inner kc_col-sm-4">
                             <div class="kc_wrapper kc-col-inner-container">
                                 <div class="kc-elm kc-css-357015 kc-title-wrap ">
-                                    <h4 class="kc_title">Akun Resmi UGM</h4>
+                                    <h4 class="kc_title" style="margin-bottom: 5px">Akun Resmi UGM : </h4>
                                 </div>
                                 <div class="kc-elm kc-css-971339 kc-raw-code">
                                     <div class="social-media" style="padding:0px; text-align:right;">
@@ -55,6 +53,8 @@
                                         <div class="social-wrapper">
                                             <a href="https://www.instagram.com/ugm.yogyakarta/" class="fa fa-instagram" aria-hidden="true"></a>
                                         </div>
+                                    </div>
+                                    <div class="social-media" style="padding:0px; text-align:right; margin-top: 50px;">
                                         <div class="social-wrapper">
                                             <a href="https://www.youtube.com/user/UGMOfficial" class="fa fa-youtube-play" aria-hidden="true"></a>
                                         </div>
@@ -97,13 +97,13 @@
             <div class="row">
                 <?php if( get_theme_mod( 'copyright_en', true ) ) { ?>
                 <div class="col-md-6 text-left copy-wrapper" style="padding-bottom: 20px; padding-top: 20px;">
-                   <p>copyright_text', '© PPSMB PALAPA UGM 2017</p>
+                    <p>© PPSMB PALAPA UGM 2017</p>
                 </div>
                 <!-- end row -->
                 <?php } ?>
                 <?php if( get_theme_mod( 'footer_share', true ) ) { ?>
                 <div class="col-md-6 text-right" style="padding-bottom: 20px; padding-top: 20px;">
-                    <p>Designed By <a href="http://themeum.com/" target="_blank"> THEMEUM</a> Modified By Panitia PPSMB PALAPA</p>
+                    <p>Designed By <a href="http://themeum.com/" target="_blank"> THEMEUM</a> Modified By Panitia <a href="http://ppsmb.ugm.ac.id/" target="_blank">PPSMB PALAPA</a></p>
                 </div>
                 <!-- end row -->
                 <?php } ?>
